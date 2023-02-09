@@ -1,0 +1,56 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf610
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh15740\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0\b\fs72 \cf0 The battleship game\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+
+\b0\fs26 This is an online version of the world-wide known battleship game.\
+All the packages required for it to work are listed in the requirements.txt file.\
+\
+This directory contains several folders.\
+The 
+\f1 brd
+\f0  one holds the Board() object, the GUI that we have created for the game.\
+All the functions that are called in the 
+\f1 brd/board.py 
+\f0 module reside in the 
+\f1 board_functions 
+\f0 folder.\
+The graphical representation of the ships, made with the help of the 
+\f1 pygame
+\f0  library,  is in the 
+\f1 ships/ships.py
+\f0  file.\
+The logical object representing the player is defined in the 
+\f1 ply/player.py
+\f0  module\
+\
+In order to handle the network aspect of the game we have created a Network class, contained in the 
+\f1 my_network
+\f0  folder, which is responsible for handling the connections to the server, that we have defined in the 
+\f1 server.py
+\f0  module\
+With the aim of making it possible to connect over different wifi networks (without the necessity of altering the router\'92s settings), we have subscribed to the Digital Ocean platform and created and SSH connection to this host, where our  
+\f1 server.py 
+\f0 script will be running.\
+\
+We have thought of the network structure of the game as a Client/Server one. Two clients will be indirectly communicating over the network with the intermediation of a server.\
+Thus, the script that one has to run in order to actually play the game is the 
+\f1 main2.py
+\f0  one. This script will be connected to the 
+\f1 server.py 
+\f0 module using the /
+\f1 my_network/metwork.py 
+\f0 one.\
+In order to play the game the server must be running.\
+\
+\
+\
+\
+\
+}
