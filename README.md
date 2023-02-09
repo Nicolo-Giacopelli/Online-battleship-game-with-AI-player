@@ -1,1 +1,4 @@
 # Online-battleship-game-with-AI-player
+
+In this project an online version of the Battleship game has been implemented from scratch. The visualization of the board, the methods for boat placements and the general rules of the game have been thought in such a way to improve user experience. </br> </br>
+We finalized three versions with increasing number of features. Throughout all versions an AI engine can act as an opponent, with increasing ability depending on the version. It is then possible to play both alone as well as with an online friend. Version $3$ gives the possibility of an online connection between two clients using sockets and a leased server. The bot is coded to imitate as close as possible human reasoning (for what is a simple game), so that we were almost surprised by its ability in the game, which is almost reduced to pure luck. </br> </br> The repo comprises all three versions with comments and a small written introduction.
